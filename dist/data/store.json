@@ -1,0 +1,43 @@
+[
+  {
+    "id": "com.dergoogler.hentai",
+    "title": "Hentai Web",
+    "description": "# Features\r\n\r\nThe app includes some features :)\r\n\r\n> Most of these features are available after the 1.3.7 update!\r\n\r\n## Android\r\n\r\n- Option to keep the screen on\r\n- Option to inspect the app with an console\r\n- Option to login with an fingerprint\r\n\r\n## Windows\r\n\r\n- Option to open the app path\r\n- Option to enable DevTools\r\n- Option to Resize the window to different phone sizes\r\n\r\n## Global (All Platforms)\r\n\r\n- Option to change the language\r\n  - Only german and english at the monent\r\n- Option to enable always login\r\n- Option to change the cards design\r\n- Option to enable dark mode\r\n- Option to enable iOS design (don't use it with dark mode, because it isn't supported)\r\n- Option to hide the search bars/inputs\r\n\r\n### Discord\r\n\r\n<discordwidget token=\"835191866315505734\" />",
+    "image": "https://github.com/DerGoogler/Hentai-Web/blob/master/Android/app/src/main/ic_launcher-playstore.png?raw=true",
+    "category": "Entertainment",
+    "download": "https://github.com/DerGoogler/Hentai-Web/releases/download/1.3.6/app-release-hotfix.apk",
+    "screenshots": {
+      "enabled": true,
+      "data": [
+        "https://raw.githubusercontent.com/DerGoogler/Hentai-Web/master/Website/images/mobile_light.png",
+        "https://raw.githubusercontent.com/DerGoogler/Hentai-Web/master/Website/images/mobile_dark.png",
+        "https://raw.githubusercontent.com/DerGoogler/Hentai-Web/master/Website/images/desktop_light.png",
+        "https://raw.githubusercontent.com/DerGoogler/Hentai-Web/master/Website/images/desktop_dark.png"
+      ]
+    },
+    "developer": {
+      "enabled": true,
+      "name": "Der_Googler",
+      "website": "https://blog.dergoogler.com"
+    }
+  },
+  {
+    "id": "g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g.g",
+    "title": "Random Number",
+    "description": "## Function\r\n- choose your WA package\r\n- only German (more will soon)\r\n\r\n## Others\r\n- Nice design\r\n- easy to use\r\n\r\n****\r\n\r\n## \u26A0\uFE0F 5% Chance to get a valid number",
+    "image": "https://dl.uploadgram.me/61e2f2574393dg?raw",
+    "category": "Tools",
+    "download": "https://dl.uploadgram.me/61e2f293da71dg?raw",
+    "screenshots": {
+      "enabled": true,
+      "data": [
+        "https://dl.uploadgram.me/61e2f3245cfffg?raw"
+      ]
+    },
+    "developer": {
+      "enabled": true,
+      "name": "Der_Googler",
+      "website": "https://blog.dergoogler.com"
+    }
+  }
+]

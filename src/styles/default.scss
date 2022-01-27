@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
+}
+
+body {
+  overflow: auto;
+  font-family: Product Sans;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.kard {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s cubic-bezier(0.62, 0.61, 0.45, 1.15);
+  background: #fff;
+  margin-bottom: 20px;
+  overflow: auto;
+  top: 80px;
+  left: 10px;
+  right: 10px;
+  bottom: auto;
+  height: 150px;
+  &:last-child {
+    top: 250px;
+  }
+  &.is-open {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0;
+    width: 100%;
+    height: calc(100vh - 56px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+  }
+  &-image {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    min-height: 150px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    .is-open & {
+      min-height: 250px;
+    }
+    &__title {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      display: block;
+      padding: 10px;
+    }
+    &__bottom {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__cta {
+      text-decoration: none;
+      background: #fff;
+      padding: 4px 6px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #000;
+      border-radius: 4px;
+      // position: absolute;
+      // top: 0;
+      // right: 0;
+    }
+    &__tagline {
+      font-size: 14px;
+    }
+  }
+  &-text {
+    position: relative;
+    transition: all 0.3s ease;
+    top: 30px;
+    opacity: 0;
+    padding: 10px 10px;
+    border-top: 1px solid #aaa;
+    font-size: 14px;
+    line-height: 22px;
+    .is-open & {
+      top: 0;
+      opacity: 1;
+    }
+  }
+}
+
